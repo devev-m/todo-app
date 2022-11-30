@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  background-color: #112031;
+  font-family: "Montserrat", sans-serif;
+  color: #D4ECDD;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 50px;
+  padding: 30px 0;
+}
+
+.form {
+  padding: 0px 0px 20px 0px;
+}
+.form .button {
+  padding: 3px 10px;
+  margin: 0 0 0 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list .list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.list .list-item p {
+  text-align: left;
+  max-width: 90%;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+}
+.list .list-item span {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
