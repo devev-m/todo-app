@@ -29,12 +29,13 @@ body {
 
    .form__input{
       margin: 15px 0 0;
-      padding: 7px 0 7px 10px;
+      padding: 10px;
       border-radius: 5px;
+      width: 240px;
    }
    
    .form__button {
-      padding: 5px 10px;
+      padding: 7px 10px;
       margin: 0 0 0 10px;
       border-radius: 5px;
       background-color: #fff;
@@ -50,19 +51,19 @@ body {
       justify-content: space-between;
       align-items: center;
       width: 50%;
-      margin: 0 auto;
+      margin: 3px auto;
       
       .list__content {
          text-align: left;
          max-width: 90%;
          cursor: pointer;
          margin: 0;
-         padding: 5px;
+         padding: 8px;
       }
       .list__button {
          cursor: pointer;
-         width: 25px;
-         height: 25px;
+         width: 30px;
+         height: 30px;
          background-color: #345B63;
          border-radius: 50%;
          display: flex;
