@@ -43,7 +43,7 @@ function createTask (e) {
 
    const listButton = document.createElement('span');
    listButton.classList.add('list__button');
-   listButton.textContent = 'x';
+   listButton.textContent = 'X';
    listItem.append(listButton);
    
    i++;
