@@ -21,6 +21,17 @@ body {
    font-weight: 600;
    padding: 30px 0 15px;
 }
+.link{
+   text-decoration: none;
+   color: inherit;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0px 0px 10px 0px;
+   img{
+      margin: 0px 10px 0px 0px;
+   }
+}
 .subtitle{
    font-weight: 600;
 }
